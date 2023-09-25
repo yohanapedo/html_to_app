@@ -1,15 +1,17 @@
-{
-    "name" : "Beast"
-},
-{
-    "name" : "Captain america"
-},
-{
-    "name" : "Deadpool"
-},
-{
-    "name" : "Groot"
-},
-{
-    "name" : "Hulk"
-}
+[
+    {
+        "name" : "Beast"
+    },
+    {
+        "name" : "Captain america"
+    },
+    {
+        "name" : "Deadpool"
+    },
+    {
+        "name" : "Groot"
+    },
+    {
+        "name" : "Hulk"
+    }
+]
