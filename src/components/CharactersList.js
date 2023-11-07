@@ -1,10 +1,15 @@
+import { Link } from "react-router-dom";
 
-function CharactersList({characters}){
-    return(<ul>
-    {characters.map((item, index) => (
-        <li key={index}>{item.name}</li> 
-    ))}
-    </ul>);
-    }
-
-export default CharactersList;
+export function CharactersList({ characters = [] }) {
+    return (
+        <ul id="characters">
+            {characters.map((character) => (
+                <li key={character.id}>
+                    <Link to={`/characters/${character.id}`}>
+                        {character.name}
+                    </Link>
+                </li>
+            ))}
+        </ul>
+    );
+}
