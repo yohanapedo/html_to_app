@@ -1,8 +1,7 @@
-const characters = require("../data/characters.json");
-
-function NumberOfCharacters(){
-    return(<h1>Number of characters : {characters.length}</h1>)
-
-}
-
-export default NumberOfCharacters;
+export function NumberOfCharacters({ characters = [] }) {
+    return (
+      <p>
+        There is {characters.length === 0 ? 'no' : characters.length} character{characters.length !== 1 ? 's' : ''}
+      </p>
+    );
+  }
