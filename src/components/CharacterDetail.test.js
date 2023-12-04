@@ -10,6 +10,7 @@ describe('CharactersDetail', () => {
             id: "1",
             name: "Thor",
             description: "Thor description",
+            modified: "2020-03-11T10:18:57-0400",
             thumbnail: {
                 path: "https://foo.bar",
                 extension: "jpg"
@@ -39,6 +40,7 @@ describe('CharactersDetail', () => {
             id: "1",
             name: "Thor",
             description: "Thor description",
+            modified: "2020-03-11T10:18:57-0400"
         }
 
         // then
